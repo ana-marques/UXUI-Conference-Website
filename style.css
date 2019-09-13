@@ -105,7 +105,7 @@ header {
 }
 
 .dhms p.days {
-    margin: 0px 21px 20px 21px;
+    margin: 0px 21px 20px 16px;
 }
 
 .dhms p.hours {
@@ -113,11 +113,11 @@ header {
 }
 
 .dhms p.min {
-    margin: 0px 0px 20px 10px;
+    margin: 0px 0px 20px 12px;
 }
 
 .dhms p.sec {
-    margin: 0px 0px 20px 10px;
+    margin: 0px 0px 20px 16px;
 }
 
 .second-section button {
@@ -140,21 +140,18 @@ header {
 }
 .reasons-container {
   margin-left: 116px;
-  display: flex;
-  align-items: flex-start;
-}
+ }
 
 .reasons-section h2 {
   font-family: "Futura-CondensedMedium";
   font-size: 34px;
   color: #0eb7b8;
-  margin-bottom: 0px;
 
 }
 .h2-reasons {
     margin-bottom: 10px;
 }
-.reasons-container ul {
+.reasons-flex {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
