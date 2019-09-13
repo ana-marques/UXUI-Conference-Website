@@ -273,6 +273,11 @@ footer a {
   color: #000000;
 }
 
+.follow img {
+    width: 30px;
+    height: 30px;
+}
+
 .newsletter {
     display: flex;
     justify-content: flex-start;
